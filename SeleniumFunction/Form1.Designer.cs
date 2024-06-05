@@ -28,29 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.button_1_11_HoangNongDuong = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.button_2_11_HoangNongDuong = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.button_3_11_HoangNongDuong = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.button_4_11_HoangNongDuong = new System.Windows.Forms.Button();
+            this.button_5_11_HoangNongDuong = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // button_1_11_HoangNongDuong
             // 
-            this.button1.Location = new System.Drawing.Point(117, 82);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 42);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Điền đầy đủ thông tin";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button_1_11_HoangNongDuong.Location = new System.Drawing.Point(117, 82);
+            this.button_1_11_HoangNongDuong.Name = "button_1_11_HoangNongDuong";
+            this.button_1_11_HoangNongDuong.Size = new System.Drawing.Size(109, 42);
+            this.button_1_11_HoangNongDuong.TabIndex = 0;
+            this.button_1_11_HoangNongDuong.Text = "Điền đầy đủ thông tin";
+            this.button_1_11_HoangNongDuong.UseVisualStyleBackColor = true;
+            this.button_1_11_HoangNongDuong.Click += new System.EventHandler(this.button_1_11_HoangNongDuong_Click);
             // 
             // label1
             // 
@@ -79,15 +79,15 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "TestCase 2:";
             // 
-            // button2
+            // button_2_11_HoangNongDuong
             // 
-            this.button2.Location = new System.Drawing.Point(117, 154);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(109, 43);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Điền thiếu những thông tin bắt buộc";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button_2_11_HoangNongDuong.Location = new System.Drawing.Point(117, 154);
+            this.button_2_11_HoangNongDuong.Name = "button_2_11_HoangNongDuong";
+            this.button_2_11_HoangNongDuong.Size = new System.Drawing.Size(109, 43);
+            this.button_2_11_HoangNongDuong.TabIndex = 4;
+            this.button_2_11_HoangNongDuong.Text = "Điền thiếu những thông tin bắt buộc";
+            this.button_2_11_HoangNongDuong.UseVisualStyleBackColor = true;
+            this.button_2_11_HoangNongDuong.Click += new System.EventHandler(this.button_2_11_HoangNongDuong_Click);
             // 
             // label4
             // 
@@ -98,15 +98,15 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Chức năng 2: Sửa dữ liệu";
             // 
-            // button3
+            // button_3_11_HoangNongDuong
             // 
-            this.button3.Location = new System.Drawing.Point(533, 82);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(142, 42);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Sửa đầy đủ và khớp kiểu dữ liệu";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button_3_11_HoangNongDuong.Location = new System.Drawing.Point(533, 82);
+            this.button_3_11_HoangNongDuong.Name = "button_3_11_HoangNongDuong";
+            this.button_3_11_HoangNongDuong.Size = new System.Drawing.Size(142, 42);
+            this.button_3_11_HoangNongDuong.TabIndex = 6;
+            this.button_3_11_HoangNongDuong.Text = "Sửa đầy đủ và khớp kiểu dữ liệu";
+            this.button_3_11_HoangNongDuong.UseVisualStyleBackColor = true;
+            this.button_3_11_HoangNongDuong.Click += new System.EventHandler(this.button_3_11_HoangNongDuong_Click);
             // 
             // label5
             // 
@@ -135,43 +135,43 @@
             this.label7.TabIndex = 9;
             this.label7.Text = "TestCase 3:";
             // 
-            // button4
+            // button_4_11_HoangNongDuong
             // 
-            this.button4.Location = new System.Drawing.Point(533, 153);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(142, 44);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "Sửa đầy đủ nhưng không khớp kiểu dữ liệu";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button_4_11_HoangNongDuong.Location = new System.Drawing.Point(533, 153);
+            this.button_4_11_HoangNongDuong.Name = "button_4_11_HoangNongDuong";
+            this.button_4_11_HoangNongDuong.Size = new System.Drawing.Size(142, 44);
+            this.button_4_11_HoangNongDuong.TabIndex = 10;
+            this.button_4_11_HoangNongDuong.Text = "Sửa đầy đủ nhưng không khớp kiểu dữ liệu";
+            this.button_4_11_HoangNongDuong.UseVisualStyleBackColor = true;
+            this.button_4_11_HoangNongDuong.Click += new System.EventHandler(this.button_4_11_HoangNongDuong_Click);
             // 
-            // button5
+            // button_5_11_HoangNongDuong
             // 
-            this.button5.Location = new System.Drawing.Point(533, 227);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(142, 31);
-            this.button5.TabIndex = 11;
-            this.button5.Text = "Sửa thiếu thông tin";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button_5_11_HoangNongDuong.Location = new System.Drawing.Point(533, 227);
+            this.button_5_11_HoangNongDuong.Name = "button_5_11_HoangNongDuong";
+            this.button_5_11_HoangNongDuong.Size = new System.Drawing.Size(142, 31);
+            this.button_5_11_HoangNongDuong.TabIndex = 11;
+            this.button_5_11_HoangNongDuong.Text = "Sửa thiếu thông tin";
+            this.button_5_11_HoangNongDuong.UseVisualStyleBackColor = true;
+            this.button_5_11_HoangNongDuong.Click += new System.EventHandler(this.button_5_11_HoangNongDuong_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button_5_11_HoangNongDuong);
+            this.Controls.Add(this.button_4_11_HoangNongDuong);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button_3_11_HoangNongDuong);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button_2_11_HoangNongDuong);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button_1_11_HoangNongDuong);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -181,18 +181,18 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button_1_11_HoangNongDuong;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button_2_11_HoangNongDuong;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button_3_11_HoangNongDuong;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button_4_11_HoangNongDuong;
+        private System.Windows.Forms.Button button_5_11_HoangNongDuong;
     }
 }
 

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{C5C676B5-18B0-4DE1-B878-03E35EE49BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialTester", "FactorialTester\FactorialTester.csproj", "{EA2CBD87-3CEB-416B-B763-EEE69F91F7C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringReverser", "StringReverser\StringReverser.csproj", "{127C304B-1180-47FA-87C3-027C0159E3D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringReverserTester", "StringReverserTester\StringReverserTester.csproj", "{8F6FEBA6-01BA-4D55-B7A0-5ADD5FC00A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumElementHTML", "WindowsFormsApp1\SeleniumElementHTML.csproj", "{86389CC5-3CE4-4666-AE92-E2A08556B12C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumFunction", "SeleniumFunction\SeleniumFunction.csproj", "{501CFB02-8F27-4C67-A13F-DD7CA9B4EB67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5C676B5-18B0-4DE1-B878-03E35EE49BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C676B5-18B0-4DE1-B878-03E35EE49BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C676B5-18B0-4DE1-B878-03E35EE49BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C676B5-18B0-4DE1-B878-03E35EE49BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA2CBD87-3CEB-416B-B763-EEE69F91F7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA2CBD87-3CEB-416B-B763-EEE69F91F7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA2CBD87-3CEB-416B-B763-EEE69F91F7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA2CBD87-3CEB-416B-B763-EEE69F91F7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127C304B-1180-47FA-87C3-027C0159E3D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127C304B-1180-47FA-87C3-027C0159E3D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127C304B-1180-47FA-87C3-027C0159E3D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127C304B-1180-47FA-87C3-027C0159E3D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F6FEBA6-01BA-4D55-B7A0-5ADD5FC00A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F6FEBA6-01BA-4D55-B7A0-5ADD5FC00A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F6FEBA6-01BA-4D55-B7A0-5ADD5FC00A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F6FEBA6-01BA-4D55-B7A0-5ADD5FC00A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86389CC5-3CE4-4666-AE92-E2A08556B12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86389CC5-3CE4-4666-AE92-E2A08556B12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86389CC5-3CE4-4666-AE92-E2A08556B12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86389CC5-3CE4-4666-AE92-E2A08556B12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{501CFB02-8F27-4C67-A13F-DD7CA9B4EB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501CFB02-8F27-4C67-A13F-DD7CA9B4EB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501CFB02-8F27-4C67-A13F-DD7CA9B4EB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501CFB02-8F27-4C67-A13F-DD7CA9B4EB67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08D41C25-9876-44D8-B869-B8BC8B55EDAB}
+	EndGlobalSection
+EndGlobal

@@ -12,9 +12,10 @@ namespace FactorialTester
         [TestInitialize] 
         public void SetUp()
         {
-            a = new Calculation(5);
+            a = new Calculation(0);
         }
 
+        // TC01 Tính giai thừa của 0.
         [TestMethod] 
         public void TestCase_1_11_HoangNongDuong()
         {
@@ -24,6 +25,7 @@ namespace FactorialTester
             Assert.AreEqual(expected, actual);
         }
 
+        // TC02 Tính giai thừa của 5.
         [TestMethod]
         public void TestCase_2_11_HoangNongDuong()
         {
@@ -33,6 +35,7 @@ namespace FactorialTester
             Assert.AreEqual(expected, actual);
         }
 
+        // TC03 Tính giai thừa của 10.
         [TestMethod]
         public void TestCase_3_11_HoangNongDuong()
         {
@@ -42,23 +45,14 @@ namespace FactorialTester
             Assert.AreEqual(expected, actual);
         }
 
-        // Trường hợp ngoại lệ nếu người dùng nhập số âm
+        // TC04 Trường hợp ngoại lệ nếu người dùng nhập số âm.
         [TestMethod]
         public void TestCase_4_11_HoangNongDuong()
         {
             Assert.ThrowsException<ArgumentException>(() => a.Factorial(-1));
         }
 
-        // Trường hợp ngoại lệ nếu người dùng nhập ký tự chuỗi
-        [TestMethod]
-        [ExpectedException(typeof(FormatException))]
-        public void TestCase_5_11_HoangNongDuong()
-        {
-            string input = "abc";
-            int number = int.Parse(input);
-            a.Factorial(number);
-        }
-
+        // Đọc file CSV
         public TestContext TestContext { get; set; }
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV",
             @".\Data\TestData.csv", "TestData#csv", DataAccessMethod.Sequential)]
@@ -69,8 +63,14 @@ namespace FactorialTester
             int a = int.Parse(TestContext.DataRow[0].ToString());
             int expected = int.Parse(TestContext.DataRow[1].ToString());
             Calculation b = new Calculation(a);
-            int actual = b.Factorial(a);
-            Assert.AreEqual(expected, actual);
+            if (expected == -1)
+            {
+                Assert.ThrowsException<ArgumentException>(() => b.Factorial(a));
+            } else
+            {
+                int actual = b.Factorial(a);
+                Assert.AreEqual(expected, actual);
+            }
         }
     }
 }

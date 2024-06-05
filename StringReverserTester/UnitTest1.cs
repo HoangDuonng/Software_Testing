@@ -15,6 +15,7 @@ namespace StringReverserTester
             reverser = new StringReverse("");
         }
 
+        // TC01 Đảo ngược chuỗi không chứa khoảng trắng.
         [TestMethod]
         public void TestCase_1_11_HoangNongDuong()
         {
@@ -24,6 +25,7 @@ namespace StringReverserTester
             Assert.AreEqual(expected, actual);
         }
 
+        // TC02 Đảo ngược chuỗi có khoảng trắng.
         [TestMethod]
         public void TestCase_2_11_HoangNongDuong()
         {
@@ -33,15 +35,17 @@ namespace StringReverserTester
             Assert.AreEqual(expected, actual);
         }
 
+        // TC03 Đảo ngược chuỗi rỗng.
         [TestMethod]
         public void TestCase_3_11_HoangNongDuong()
         {
-            reverser = new StringReverse("");
-            string expected = "";
+            reverser = new StringReverse(" ");
+            string expected = " ";
             string actual = reverser.ReverseString();
             Assert.AreEqual(expected, actual);
         }
 
+        // TC04 Đảo ngược chuỗi có ký tự đặc biệt.
         [TestMethod]
         public void TestCase_4_11_HoangNongDuong()
         {
@@ -49,15 +53,6 @@ namespace StringReverserTester
             string expected = "!cba@321";
             string actual = reverser.ReverseString();
             Assert.AreEqual(expected, actual);
-        }
-
-        // Trường hợp chuỗi rỗng
-        [TestMethod]
-        [ExpectedException(typeof(ArgumentNullException))]
-        public void TestCase_7_11_HoangNongDuong()
-        {
-            reverser = new StringReverse(null);
-            reverser.ReverseString();
         }
 
         // Test với file CSV

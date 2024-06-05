@@ -23,7 +23,8 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        // Bài buổi 7_8 đầy đủ 7 cách tìm dựa trên các thuộc tính hoặc thẻ.
+        private void button_11_HoangNongDuong_Click(object sender, EventArgs e)
         {
             // Các tiêu chuẩn tìm thành phần HTML 
             ChromeDriverService chrome = ChromeDriverService.CreateDefaultService();

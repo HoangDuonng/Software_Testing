@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.button_11_HoangNongDuong = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // button_11_HoangNongDuong
             // 
-            this.button1.Location = new System.Drawing.Point(219, 145);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 29);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Element HTML";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button_11_HoangNongDuong.Location = new System.Drawing.Point(219, 145);
+            this.button_11_HoangNongDuong.Margin = new System.Windows.Forms.Padding(2);
+            this.button_11_HoangNongDuong.Name = "button_11_HoangNongDuong";
+            this.button_11_HoangNongDuong.Size = new System.Drawing.Size(130, 29);
+            this.button_11_HoangNongDuong.TabIndex = 0;
+            this.button_11_HoangNongDuong.Text = "Element HTML";
+            this.button_11_HoangNongDuong.UseVisualStyleBackColor = true;
+            this.button_11_HoangNongDuong.Click += new System.EventHandler(this.button_11_HoangNongDuong_Click);
             // 
             // label1
             // 
@@ -65,7 +65,7 @@
             this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button_11_HoangNongDuong);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -75,7 +75,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button_11_HoangNongDuong;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }

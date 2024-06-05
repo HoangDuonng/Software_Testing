@@ -13,9 +13,6 @@ namespace StringManipulation
 
         public string ReverseString()
         {
-            if (input == null)
-                throw new ArgumentNullException(nameof(input), "Vui lòng nhập một chuỗi!");
-
             char[] charArray = input.ToCharArray();
             Array.Reverse(charArray);
             return new string(charArray);

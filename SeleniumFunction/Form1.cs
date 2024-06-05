@@ -23,7 +23,7 @@ namespace SeleniumFunction
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button_1_11_HoangNongDuong_Click(object sender, EventArgs e)
         {
             // Test mẫu form
             ChromeDriverService chrome = ChromeDriverService.CreateDefaultService();
@@ -119,14 +119,15 @@ namespace SeleniumFunction
             // 12. Bấm submit form
             IWebElement buttonSubmit = driver.FindElement(By.Id("submit"));
             buttonSubmit.Click();
-            
+            Thread.Sleep(5000);
+
             // 13. Đóng cửa sổ sau khi hoàn thành submit
             IWebElement buttonClose = driver.FindElement(By.Id("closeLargeModal"));
             buttonClose.Click();
             
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button_2_11_HoangNongDuong_Click(object sender, EventArgs e)
         {
             // Test mẫu form
             ChromeDriverService chrome = ChromeDriverService.CreateDefaultService();
@@ -166,7 +167,7 @@ namespace SeleniumFunction
             buttonSubmit.Click();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button_3_11_HoangNongDuong_Click(object sender, EventArgs e)
         {
             // Test mẫu chỉnh sửa đủ và đúng dữ liệu
             ChromeDriverService chrome = ChromeDriverService.CreateDefaultService();
@@ -205,7 +206,7 @@ namespace SeleniumFunction
             
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button_4_11_HoangNongDuong_Click(object sender, EventArgs e)
         {
             // Test mẫu sửa dữ liệu đủ và không đúng kiểu dữ liệu
             ChromeDriverService chrome = ChromeDriverService.CreateDefaultService();
@@ -233,7 +234,7 @@ namespace SeleniumFunction
             submit.Click();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button_5_11_HoangNongDuong_Click(object sender, EventArgs e)
         {
             // Test mẫu sửa dữ liệu đủ và không đủ dữ liệu
             ChromeDriverService chrome = ChromeDriverService.CreateDefaultService();
