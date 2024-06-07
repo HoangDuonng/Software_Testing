@@ -50,7 +50,7 @@
             this.button_1_11_HoangNongDuong.TabIndex = 0;
             this.button_1_11_HoangNongDuong.Text = "Điền đầy đủ thông tin";
             this.button_1_11_HoangNongDuong.UseVisualStyleBackColor = true;
-            this.button_1_11_HoangNongDuong.Click += new System.EventHandler(this.button_1_11_HoangNongDuong_Click);
+            this.button_1_11_HoangNongDuong.Click += new System.EventHandler(this.CN1_TC01_11_Duong);
             // 
             // label1
             // 
@@ -87,7 +87,7 @@
             this.button_2_11_HoangNongDuong.TabIndex = 4;
             this.button_2_11_HoangNongDuong.Text = "Điền thiếu những thông tin bắt buộc";
             this.button_2_11_HoangNongDuong.UseVisualStyleBackColor = true;
-            this.button_2_11_HoangNongDuong.Click += new System.EventHandler(this.button_2_11_HoangNongDuong_Click);
+            this.button_2_11_HoangNongDuong.Click += new System.EventHandler(this.CN1_TC02_11_Duong);
             // 
             // label4
             // 
@@ -106,7 +106,7 @@
             this.button_3_11_HoangNongDuong.TabIndex = 6;
             this.button_3_11_HoangNongDuong.Text = "Sửa đầy đủ và khớp kiểu dữ liệu";
             this.button_3_11_HoangNongDuong.UseVisualStyleBackColor = true;
-            this.button_3_11_HoangNongDuong.Click += new System.EventHandler(this.button_3_11_HoangNongDuong_Click);
+            this.button_3_11_HoangNongDuong.Click += new System.EventHandler(this.CN2_TC01_11_Duong);
             // 
             // label5
             // 
@@ -143,7 +143,7 @@
             this.button_4_11_HoangNongDuong.TabIndex = 10;
             this.button_4_11_HoangNongDuong.Text = "Sửa đầy đủ nhưng không khớp kiểu dữ liệu";
             this.button_4_11_HoangNongDuong.UseVisualStyleBackColor = true;
-            this.button_4_11_HoangNongDuong.Click += new System.EventHandler(this.button_4_11_HoangNongDuong_Click);
+            this.button_4_11_HoangNongDuong.Click += new System.EventHandler(this.CN2_TC02_11_Duong);
             // 
             // button_5_11_HoangNongDuong
             // 
@@ -153,7 +153,7 @@
             this.button_5_11_HoangNongDuong.TabIndex = 11;
             this.button_5_11_HoangNongDuong.Text = "Sửa thiếu thông tin";
             this.button_5_11_HoangNongDuong.UseVisualStyleBackColor = true;
-            this.button_5_11_HoangNongDuong.Click += new System.EventHandler(this.button_5_11_HoangNongDuong_Click);
+            this.button_5_11_HoangNongDuong.Click += new System.EventHandler(this.CN2_TC03_11_Duong);
             // 
             // Form1
             // 
